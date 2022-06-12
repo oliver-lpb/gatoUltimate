@@ -1,0 +1,40 @@
+main{
+    border: 1px;
+    
+}
+
+.contenedor{
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.caja{
+    border: 1px solid black;
+    height: 90px;
+    cursor: pointer;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.punto{
+    padding: 0;
+    margin: 0;
+    font-size: xxx-large;
+}
+
+.cajaEspera{
+    border: 5px solid yellow;
+    position: absolute;
+    width: 33%;
+    height: 29%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.171);
+    font-size: xxx-large;
+
+}

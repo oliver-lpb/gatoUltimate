@@ -1,0 +1,15 @@
+main{
+    border: 1px;
+}
+
+.contenedor{
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.caja{
+    border: 1px solid green;
+    height: 30vh;
+}
